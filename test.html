@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cup of joy cafe</title>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href=""><img src="logo3.png" width="130" height="100"></a>
+            <div class="navs" id="links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#reviews">REVIEW</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+             </div>
+             
+             <div class="icons">
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-search"></i>
+             </div>
+             <i class="fas fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="background-images"></div>
+        <div class="maintext">
+            <h1>Cup Of Joy</h1>
+            <h2>Your all time favorite coffee </h2>
+            <p>Welcome to our special café</p>
+            <a href="" class="btn">Customize your cup</a>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="lwrf3fkgpjgsdqn1a0vj.jpg" alt="Cafe about us image" class="ab">
+            </div>
+            <div class="col-md-6">
+              <h2 style="color: rgb(101, 50, 3);">About Our Cafe</h2>
+              <p>Our cafe was founded with a passion for bringing people together over great food and drinks.</p>
+              <p>We pride ourselves on using only the freshest ingredients in our dishes and serving locally roasted coffee.</p>
+              <p>Our cozy and welcoming atmosphere makes us the perfect spot for catching up with friends, studying, or just relaxing with a good book.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="menu" class="menu">
+        <h1>Our Menu</h1>
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="My project (3).png" alt="">
+                <div class="content">
+                    <h3>hot coffees</h3>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="My project (2).png" alt="">
+                <div class="content">
+                   <h3>iced coffees</h3>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="My project (4).png" alt="">
+                <div class="content">
+                    <h3>bakery</h3>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="My project (5).png" alt="">
+                <div class="content">
+                    <h3>desserts</h3>
+                </div>
+            </a>
+
+           
+        </div>
+    </section>
+
+      <section id="reviews">
+        <div class="container">
+          <h2 style="color: rgb(101, 50, 3);">Customer Reviews</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="review">
+                <img src="handsome-cheerful-man-with-happy-smile_176420-18028.avif" alt="Customer 1">
+                <h3>John Smith</h3>
+                <p>"The coffee here is amazing! I always stop by for my morning cup."</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="review">
+                <img src="c1_1937552_200619122619.jpg" alt="Customer 2">
+                <h3>lana Doe</h3>
+                <p>"The food is always fresh and delicious. I love coming here for brunch on weekends."</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="review">
+                <img src="360_F_197116416_hpfTtXSoJMvMqU99n6hGP4xX0ejYa4M7.jpg" alt="Customer 3">
+                <h3>Bob Johnson</h3>
+                <p>"The staff is friendly and welcoming. This place has a great vibe and always puts me in a good mood."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 style="color: rgb(101, 50, 3);">Contact Us</h2>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" rows="2"id="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" rows="2"id="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <img src="heart.webp" alt="Cafe Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>      
+      
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Our Mission</h4>
+              “To inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.”
+               </div>
+            <div class="col-md-4">
+              <h4>Opening Hours</h4>
+              <ul>
+                <li>Sunday-wednesday: 7am-10pm</li>
+                <li>thursday-saturday: 7am-12pm</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <ul>
+                <li>123 Main Street</li>
+                <li>El-Mohandsin</li>
+                <li>(02) 456-7890</li>
+                <li><a href="mailto:info@mycafe.com">info@mycafe.com</a></li>
+              </ul>
+              <div class="footer-social-container">
+                <div>
+                    <a href="#" class="social-link">terms & services</a>
+                    <a href="#" class="social-link">privacy page</a>
+                </div>
+                <div>
+                    <a href="#" class="social-link">instagram</a>
+                    <a href="#" class="social-link">facebook</a>
+                    <a href="#" class="social-link">twitter</a>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+        
+    </section>
+    <script>
+        var navlinks=document.getElementById("links");
+        function ShowMenu(){
+            navlinks.style.right="0";
+        }
+        function HideMenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -22,7 +22,7 @@ header{
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(68, 41, 41, 0.152)), url('360_F_276353920_LYBJg7bylEGmGJJhfFP7waS1kI1jbC4m.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(68, 41, 41, 0.152)), url('img/360_F_276353920_LYBJg7bylEGmGJJhfFP7waS1kI1jbC4m.jpg');
     background-repeat: repeat-x;
     background-size: auto 100%;
     animation: scroll 20s linear infinite;

@@ -30,7 +30,7 @@
    </tr>
    
    <?php
-   include('test.php'); // Include the database connection code
+   include('conn.php'); // Include the database connection code
    
    $query = "SELECT * FROM sandwiches";
    $records = mysqli_query($con, $query);

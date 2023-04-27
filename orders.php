@@ -30,9 +30,17 @@
 </button>
 </div>
 </form>
-
-<h1>pick up</h1>
-<label for="time-input">Select a time:</label>
+<h1>pick up time</h1>
+<img style="margin-left: 450px; "src="./img/pup.png">
+<form>
+<div class="clock">
 <input type="time" id="time-input" name="time">
+<button style="position: absolute; justify-content:start;" class="cta">
+  <span>Done</span>
+  <svg viewBox="0 0 13 10" height="10px" width="15px">
+  </svg>
+</button>
+</div>
+</form>
 </body>
 </html>

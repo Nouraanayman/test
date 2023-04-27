@@ -1,7 +1,9 @@
 /* user edit in order page*/
 h1{
-    margin: 50px 0px 0px 30px;
-    color: #A64B2A;
+    margin: 50px 0px 0px 70px;
+    font-size:  70px;
+        color: rgba(225, 225, 225, 0.0);
+        -webkit-text-stroke: 1px #A64B2A;
 }
 form{
     margin-top: 100px;
@@ -128,12 +130,23 @@ form{
    .cta:active {
 	transform: scale(0.95);
    }
+  input[type="time"] {
+    margin-right: 900px;
+    position: absolute;
+   bottom: 400px;
+  font-size: 18px;
+    padding: 10px;
+    border: 5px solid #D7A86E;
+    border-radius: 10px;
+    background-color: #D7A86E;
+    height: 50px;
+    width: 200px;
+     }
+     .clock{
+        position: relative;
+        height: 70px;
+        width: 300px;
+        padding: 10px;
+     }
 
-   input[type="time"] {
-    margin-top: 100px ;
-    padding: 6px 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    color: #555;
-  }
+  

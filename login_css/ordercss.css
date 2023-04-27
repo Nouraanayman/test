@@ -1,0 +1,139 @@
+/* user edit in order page*/
+h1{
+    margin: 50px 0px 0px 30px;
+    color: #A64B2A;
+}
+form{
+    margin-top: 100px;
+}
+.form__group {
+	position: relative;
+	padding: 20px 0 0;
+	width: 100%;
+	max-width:99%;
+	margin-top: 55px;
+
+  }
+  
+  .form__field {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #9b9b9b;
+	outline: 0;
+	color: black;
+	padding: 7px 0;
+	background: transparent;
+	transition: border-color 0.2s;
+  }
+  
+  .form__field::placeholder {
+	color: transparent;
+  }
+  
+  .form__field:placeholder-shown ~ .form__label {
+	font-size: 17px;
+	cursor: text;
+	top: 20px;
+  }
+  
+  .form__label {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 17px;
+	color: #9b9b9b;
+	pointer-events: none;
+  }
+  
+  .form__field:focus {
+	padding-bottom: 6px;
+	font-weight: 700;
+	border-width: 3px;
+	border-image: linear-gradient(to right, #A64B2A, #D7A86E );
+	border-image-slice: 1;
+  }
+  
+  .form__field:focus ~ .form__label {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 17px;
+	color: #A64B2A;
+	color: #D7A86E ;
+	font-weight: 700;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+	box-shadow: none;
+  }
+  
+/* edit button*/
+.cta {
+	position: relative;
+	margin: auto;
+	padding: 12px 18px;
+	transition: all 0.2s ease;
+	border: none;
+	background: none;
+	margin-top: 30px;
+   }
+   
+   .cta:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 50px;
+	background: #A64B2A;
+	width: 45px;
+	height: 45px;
+	transition: all 0.3s ease;
+   }
+   
+   .cta span {
+	position: relative;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	color: black;
+   }
+   
+   .cta svg {
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #234567;
+	stroke-width: 2;
+	transform: translateX(-5px);
+	transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+	width: 100%;
+	background: #D7A86E;
+   }
+   
+   .cta:hover svg {
+	transform: translateX(0);
+   }
+   
+   .cta:active {
+	transform: scale(0.95);
+   }
+
+   input[type="time"] {
+    margin-top: 100px ;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+  }

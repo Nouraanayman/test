@@ -1,7 +1,7 @@
 /* user edit in order page*/
 h1{
     margin: 50px 0px 0px 70px;
-    font-size:  70px;
+    font-size:  50px;
         color: rgba(225, 225, 225, 0.0);
         -webkit-text-stroke: 1px #A64B2A;
 }
@@ -26,47 +26,29 @@ form{
 	padding: 7px 0;
 	background: transparent;
 	transition: border-color 0.2s;
-  }
-  
-  .form__field::placeholder {
-	color: transparent;
-  }
-  
-  .form__field:placeholder-shown ~ .form__label {
-	font-size: 17px;
-	cursor: text;
-	top: 20px;
-  }
-  
-  .form__label {
-	position: absolute;
-	top: 0;
-	display: block;
-	transition: 0.2s;
-	font-size: 17px;
-	color: #9b9b9b;
-	pointer-events: none;
-  }
-  
-  .form__field:focus {
-	padding-bottom: 6px;
+    padding-bottom: 6px;
 	font-weight: 700;
 	border-width: 3px;
 	border-image: linear-gradient(to right, #A64B2A, #D7A86E );
 	border-image-slice: 1;
   }
   
-  .form__field:focus ~ .form__label {
+  .form__field::placeholder {
+	color: transparent;
+  }
+  .form__label {
 	position: absolute;
 	top: 0;
 	display: block;
 	transition: 0.2s;
 	font-size: 17px;
-	color: #A64B2A;
-	color: #D7A86E ;
-	font-weight: 700;
+	color: #D7A86E;
+	pointer-events: none;
+
   }
+
   
+ 
   /* reset input */
   .form__field:required, .form__field:invalid {
 	box-shadow: none;
@@ -80,8 +62,9 @@ form{
 	transition: all 0.2s ease;
 	border: none;
 	background: none;
-	margin-top: 30px;
-   }
+    margin-top: 30px; 
+       }
+   
    
    .cta:before {
 	content: "";
@@ -139,7 +122,7 @@ form{
     border: 5px solid #D7A86E;
     border-radius: 10px;
     background-color: #D7A86E;
-    height: 50px;
+    height: 30px;
     width: 200px;
      }
      .clock{
@@ -148,5 +131,38 @@ form{
         width: 300px;
         padding: 10px;
      }
+     .playstore-button {
+        display: inline-flex;
+       margin: 50px 0px 0px 50px;
+        border: 2px solid  #D7A86E;
+        border-radius: 9999px;
+        background-color:  #D7A86E;
+        padding: 0.625rem 2.5rem;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        outline: 0;
+        transition: all  .2s ease;
+        text-decoration: none;
+      }
+      
+      .playstore-button:hover {
+        background-color: transparent;
+        color: rgba(0, 0, 0, 1);
+      }
+      
+      .text-2 {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 6px;
+        margin-left: 6px;
+      }
+    
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 
-  
+

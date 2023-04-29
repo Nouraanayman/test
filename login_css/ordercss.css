@@ -10,6 +10,7 @@ form{
 }
 .form__group {
 	position: relative;
+    left: 5px;
 	padding: 20px 0 0;
 	width: 100%;
 	max-width:99%;
@@ -165,4 +166,45 @@ form{
   'opsz' 48
 }
 
+.curve{
+    margin-top: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #F3DEBA;
+    border-radius: 50px;
+    border-top: #A64B2A solid;
+    
+}
+.back {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background:none;
+   }
+   
+   .back > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+  .back:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .back:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
 

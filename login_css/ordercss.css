@@ -1,0 +1,210 @@
+/* user edit in order page*/
+h1{
+    margin: 50px 0px 0px 70px;
+    font-size:  50px;
+        color: rgba(225, 225, 225, 0.0);
+        -webkit-text-stroke: 1px #A64B2A;
+}
+form{
+    margin-top: 100px;
+}
+.form__group {
+	position: relative;
+    left: 5px;
+	padding: 20px 0 0;
+	width: 100%;
+	max-width:99%;
+	margin-top: 55px;
+
+  }
+  
+  .form__field {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #9b9b9b;
+	outline: 0;
+	color: black;
+	padding: 7px 0;
+	background: transparent;
+	transition: border-color 0.2s;
+    padding-bottom: 6px;
+	font-weight: 700;
+	border-width: 3px;
+	border-image: linear-gradient(to right, #A64B2A, #D7A86E );
+	border-image-slice: 1;
+  }
+  
+  .form__field::placeholder {
+	color: transparent;
+  }
+  .form__label {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 17px;
+	color: #D7A86E;
+	pointer-events: none;
+
+  }
+
+  
+ 
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+	box-shadow: none;
+  }
+  
+/* edit button*/
+.cta {
+	position: relative;
+	margin: auto;
+	padding: 12px 18px;
+	transition: all 0.2s ease;
+	border: none;
+	background: none;
+    margin-top: 30px; 
+       }
+   
+   
+   .cta:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 50px;
+	background: #A64B2A;
+	width: 45px;
+	height: 45px;
+	transition: all 0.3s ease;
+   }
+   
+   .cta span {
+	position: relative;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	color: black;
+   }
+   
+   .cta svg {
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #234567;
+	stroke-width: 2;
+	transform: translateX(-5px);
+	transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+	width: 100%;
+	background: #D7A86E;
+   }
+   
+   .cta:hover svg {
+	transform: translateX(0);
+   }
+   
+   .cta:active {
+	transform: scale(0.95);
+   }
+  input[type="time"] {
+    margin-right: 900px;
+    position: absolute;
+   bottom: 400px;
+  font-size: 18px;
+    padding: 10px;
+    border: 5px solid #D7A86E;
+    border-radius: 10px;
+    background-color: #D7A86E;
+    height: 30px;
+    width: 200px;
+     }
+     .clock{
+        position: relative;
+        height: 70px;
+        width: 300px;
+        padding: 10px;
+     }
+     .playstore-button {
+        display: inline-flex;
+       margin: 50px 0px 0px 50px;
+        border: 2px solid  #D7A86E;
+        border-radius: 9999px;
+        background-color:  #D7A86E;
+        padding: 0.625rem 2.5rem;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        outline: 0;
+        transition: all  .2s ease;
+        text-decoration: none;
+      }
+      
+      .playstore-button:hover {
+        background-color: transparent;
+        color: rgba(0, 0, 0, 1);
+      }
+      
+      .text-2 {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 6px;
+        margin-left: 6px;
+      }
+    
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.curve{
+    margin-top: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #F3DEBA;
+    border-radius: 50px;
+    border-top: #A64B2A solid;
+    
+}
+.back {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background:none;
+   }
+   
+   .back > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+  .back:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .back:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
+

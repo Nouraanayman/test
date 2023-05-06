@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sandwiches Category</title>
-    <link rel="stylesheet" href="styles.css">
+	<title>Juice & Smoothies Category</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Sandwiches Category</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">MENU</a></li>
-                <li><a href="#">REVIEW</a></li>
-                <li><a href="#">CONTACT US</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+	<header>
+		<h1>Juice & Smoothies</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">MENU</a></li>
+				<li><a href="#">REVIEW</a></li>
+				<li><a href="#">CONTACT US</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
     <?php
             $servername = "localhost";
             $username = "root";
@@ -32,7 +32,7 @@
                 die("Connection failed: " . mysqli_connect_error());
             }
 
-            $sql = "SELECT * FROM `product` WHERE `categoryID`='4'";
+            $sql = "SELECT * FROM `product` WHERE `categoryID`='6'";
             $result = mysqli_query($con, $sql);
             if (mysqli_num_rows($result) > 0) {
                 while ($row = mysqli_fetch_assoc($result)) {

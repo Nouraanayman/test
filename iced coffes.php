@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sandwiches Category</title>
+    <title>Iced coffes & Cold Beverages</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Sandwiches Category</h1>
+        <h1>Iced coffes & Cold Beverages</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -32,7 +32,7 @@
                 die("Connection failed: " . mysqli_connect_error());
             }
 
-            $sql = "SELECT * FROM `product` WHERE `categoryID`='4'";
+            $sql = "SELECT * FROM `product` WHERE `categoryID`='1'";
             $result = mysqli_query($con, $sql);
             if (mysqli_num_rows($result) > 0) {
                 while ($row = mysqli_fetch_assoc($result)) {
